@@ -1,0 +1,14 @@
+{ 
+    "images": [
+        {
+            "id": 1,
+            "author": "Agus",
+            "url": "https://imgur.com/dsa4FsyR",
+            "timestamp": 1761007150263,
+            "description": "Hello world!",
+            "hidden": false,
+            "height": 1080,
+            "width": 1920
+        }
+    ]
+}
