@@ -78,37 +78,22 @@ Middleware encargado de manejar la subida de imágenes:
 
 ---
 
-##  Ejemplo de uso (con cURL)
-
-```bash
-# Crear una galería
-curl -X POST http://localhost:3000/api/gallery \
--H "Authorization: Basic dXN1YXJpbzpwYXNzd29yZA==" \
--H "Content-Type: application/json" \
--d '{"name":"Casamiento Luli & Rama","description":"Galeria 2025"}'
-
-# Subir imagen
-curl -X POST http://localhost:3000/api/gallery/123abc/upload \
--H "Authorization: Basic dXN1YXJpbzpwYXNzd29yZA==" \
--F "image=@/ruta/a/la/imagen.jpg"
-```
-
 ## Estructura del proyecto
 ```
     src/
     ├── controllers/
-    │    └── producto.controller.js
+    │    └── gallery.controller.js
     ├── middleware/
     │    ├── auth.middleware.js
     │    ├── logger.middleware.js
-    │    ├── validate.js
-    │    └── upload.js
+    │    └── validate.middleware.js
     ├── models/
     │    └── gallery.model.js
     ├── routes/
     │    └── gallery.routes.js
-    └── index.js
-    database/
-    └── db.json
-    uploads/
+    ├── index.js
+    ├── database/
+    │   └── db.json
+    │   └── galleries/
+    └── uploads/
 ```
