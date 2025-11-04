@@ -1,0 +1,11 @@
+{
+  "galleries": [
+    {
+      "uid": "dc864fa5-bcbb-4920-a230-ad8d6d858ca9",
+      "name": "NoTanRetro",
+      "description": "Mi primer galeria",
+      "visible": false,
+      "timestamp": 1762250724536
+    }
+  ]
+}
